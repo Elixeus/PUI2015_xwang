@@ -12,10 +12,10 @@ if __name__=='__main__':
         writer.writerow(['Station Name', 'Latitude', 'Longtitude'])
 
         for s in stations:
-            if s['statusKey'] != 1 and s['stationName'].startwith('Coming soon'):
+            if s['statusKey'] != 1 and s['stationName'].startswith('Coming soon'):
                 stationName = s['stationName'][13:]
                 stationLat = s['latitude']
-                stationLon = s['longtitude']
+                stationLon = s['longitude']
                 #print '%s :%s, %s' % (stationName, stationLat, stationLon)
                 row = [stationName, stationLat, stationLon]
                 writer.writerow(row)
