@@ -1,0 +1,49 @@
+good reviews, attentive and insightful 10/10
+
+NOTES ON PLOT 
+==============
+
+[!alt text](Xia.png)
+
+the plot is clear, the label visible. 
+
+the default choice for python large number visualization is questionable and could be changed (the 1e7 at the top is hard to notice
+
+contrast is lost by color blind people
+
+the legend is unclear. "10t" is not explained. the default 3 datapoints for scatter plot should be changes as it is unnecessarily redundant
+
+
+NOTES OF THE PLOTS YOU REVIEWED
+==========================================
+
+Casyfill
+=========
+the kind of plot that makes tufte happy. 
+the author should make the python implementation public in a nice python module!
+the color choices are not terribly good for color blind compliance.
+
+what is the number at the top left of each row? not describes in the readme.
+
+cindyliu686
+===========
+the colors are not explained nor is the transparency
+
+for the large numbers on x and y axis a more concise notation should be chosen
+
+the 3d dimension is unnecessary and possibly redundant with the color. 
+
+the 3d dimension makes the readability of the Square footage and of the # of units hard to read away from the edges of the respective axis ranges
+
+jjhall
+======
+
+
+tick and axis labels are too small
+
+the colors indicate the structure in the data nicely but the three shades are not distinguishable by people affected by the most common color blind variety
+
+in general the default 3 datapoints in the legend should be substitute with a single point, as they are redundant, but in this case since the datapoints are small to allow to see the overlapping structure (presumably) the three datapoints are justified. 
+
+10^0 should be replaced with 1, 10^1 with 10
+FEEDBACK ON YOUR REVIEWS AND PLOT
